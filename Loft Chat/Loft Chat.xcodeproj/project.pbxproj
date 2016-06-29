@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75990DB51D247D8300E45A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75990DB41D247D8300E45A64 /* AppDelegate.swift */; };
+		75990DB71D247D8300E45A64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75990DB61D247D8300E45A64 /* ViewController.swift */; };
+		75990DBA1D247D8300E45A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75990DB81D247D8300E45A64 /* Main.storyboard */; };
+		75990DBC1D247D8300E45A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75990DBB1D247D8300E45A64 /* Assets.xcassets */; };
+		75990DBF1D247D8300E45A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75990DBD1D247D8300E45A64 /* LaunchScreen.storyboard */; };
+		75990DCA1D247D8300E45A64 /* Loft_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75990DC91D247D8300E45A64 /* Loft_ChatTests.swift */; };
+		75990DD51D247D8300E45A64 /* Loft_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75990DD41D247D8300E45A64 /* Loft_ChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75990DC61D247D8300E45A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75990DA91D247D8300E45A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75990DB01D247D8300E45A64;
+			remoteInfo = "Loft Chat";
+		};
+		75990DD11D247D8300E45A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75990DA91D247D8300E45A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75990DB01D247D8300E45A64;
+			remoteInfo = "Loft Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75990DB11D247D8300E45A64 /* Loft Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loft Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75990DB41D247D8300E45A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75990DB61D247D8300E45A64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75990DB91D247D8300E45A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75990DBB1D247D8300E45A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75990DBE1D247D8300E45A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75990DC01D247D8300E45A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75990DC51D247D8300E45A64 /* Loft ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loft ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75990DC91D247D8300E45A64 /* Loft_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loft_ChatTests.swift; sourceTree = "<group>"; };
+		75990DCB1D247D8300E45A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75990DD01D247D8300E45A64 /* Loft ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loft ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75990DD41D247D8300E45A64 /* Loft_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loft_ChatUITests.swift; sourceTree = "<group>"; };
+		75990DD61D247D8300E45A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75990DAE1D247D8300E45A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DC21D247D8300E45A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DCD1D247D8300E45A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75990DA81D247D8300E45A64 = {
+			isa = PBXGroup;
+			children = (
+				75990DB31D247D8300E45A64 /* Loft Chat */,
+				75990DC81D247D8300E45A64 /* Loft ChatTests */,
+				75990DD31D247D8300E45A64 /* Loft ChatUITests */,
+				75990DB21D247D8300E45A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75990DB21D247D8300E45A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75990DB11D247D8300E45A64 /* Loft Chat.app */,
+				75990DC51D247D8300E45A64 /* Loft ChatTests.xctest */,
+				75990DD01D247D8300E45A64 /* Loft ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75990DB31D247D8300E45A64 /* Loft Chat */ = {
+			isa = PBXGroup;
+			children = (
+				75990DB41D247D8300E45A64 /* AppDelegate.swift */,
+				75990DB61D247D8300E45A64 /* ViewController.swift */,
+				75990DB81D247D8300E45A64 /* Main.storyboard */,
+				75990DBB1D247D8300E45A64 /* Assets.xcassets */,
+				75990DBD1D247D8300E45A64 /* LaunchScreen.storyboard */,
+				75990DC01D247D8300E45A64 /* Info.plist */,
+			);
+			path = "Loft Chat";
+			sourceTree = "<group>";
+		};
+		75990DC81D247D8300E45A64 /* Loft ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				75990DC91D247D8300E45A64 /* Loft_ChatTests.swift */,
+				75990DCB1D247D8300E45A64 /* Info.plist */,
+			);
+			path = "Loft ChatTests";
+			sourceTree = "<group>";
+		};
+		75990DD31D247D8300E45A64 /* Loft ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75990DD41D247D8300E45A64 /* Loft_ChatUITests.swift */,
+				75990DD61D247D8300E45A64 /* Info.plist */,
+			);
+			path = "Loft ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75990DB01D247D8300E45A64 /* Loft Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75990DD91D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft Chat" */;
+			buildPhases = (
+				75990DAD1D247D8300E45A64 /* Sources */,
+				75990DAE1D247D8300E45A64 /* Frameworks */,
+				75990DAF1D247D8300E45A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loft Chat";
+			productName = "Loft Chat";
+			productReference = 75990DB11D247D8300E45A64 /* Loft Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75990DC41D247D8300E45A64 /* Loft ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75990DDC1D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft ChatTests" */;
+			buildPhases = (
+				75990DC11D247D8300E45A64 /* Sources */,
+				75990DC21D247D8300E45A64 /* Frameworks */,
+				75990DC31D247D8300E45A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75990DC71D247D8300E45A64 /* PBXTargetDependency */,
+			);
+			name = "Loft ChatTests";
+			productName = "Loft ChatTests";
+			productReference = 75990DC51D247D8300E45A64 /* Loft ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75990DCF1D247D8300E45A64 /* Loft ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75990DDF1D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft ChatUITests" */;
+			buildPhases = (
+				75990DCC1D247D8300E45A64 /* Sources */,
+				75990DCD1D247D8300E45A64 /* Frameworks */,
+				75990DCE1D247D8300E45A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75990DD21D247D8300E45A64 /* PBXTargetDependency */,
+			);
+			name = "Loft ChatUITests";
+			productName = "Loft ChatUITests";
+			productReference = 75990DD01D247D8300E45A64 /* Loft ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75990DA91D247D8300E45A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Karl Pfister";
+				TargetAttributes = {
+					75990DB01D247D8300E45A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					75990DC41D247D8300E45A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75990DB01D247D8300E45A64;
+					};
+					75990DCF1D247D8300E45A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75990DB01D247D8300E45A64;
+					};
+				};
+			};
+			buildConfigurationList = 75990DAC1D247D8300E45A64 /* Build configuration list for PBXProject "Loft Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75990DA81D247D8300E45A64;
+			productRefGroup = 75990DB21D247D8300E45A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75990DB01D247D8300E45A64 /* Loft Chat */,
+				75990DC41D247D8300E45A64 /* Loft ChatTests */,
+				75990DCF1D247D8300E45A64 /* Loft ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75990DAF1D247D8300E45A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75990DBF1D247D8300E45A64 /* LaunchScreen.storyboard in Resources */,
+				75990DBC1D247D8300E45A64 /* Assets.xcassets in Resources */,
+				75990DBA1D247D8300E45A64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DC31D247D8300E45A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DCE1D247D8300E45A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75990DAD1D247D8300E45A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75990DB71D247D8300E45A64 /* ViewController.swift in Sources */,
+				75990DB51D247D8300E45A64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DC11D247D8300E45A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75990DCA1D247D8300E45A64 /* Loft_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75990DCC1D247D8300E45A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75990DD51D247D8300E45A64 /* Loft_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75990DC71D247D8300E45A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75990DB01D247D8300E45A64 /* Loft Chat */;
+			targetProxy = 75990DC61D247D8300E45A64 /* PBXContainerItemProxy */;
+		};
+		75990DD21D247D8300E45A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75990DB01D247D8300E45A64 /* Loft Chat */;
+			targetProxy = 75990DD11D247D8300E45A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75990DB81D247D8300E45A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75990DB91D247D8300E45A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75990DBD1D247D8300E45A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75990DBE1D247D8300E45A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75990DD71D247D8300E45A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75990DD81D247D8300E45A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75990DDA1D247D8300E45A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Loft Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75990DDB1D247D8300E45A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Loft Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75990DDD1D247D8300E45A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Loft ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loft Chat.app/Loft Chat";
+			};
+			name = Debug;
+		};
+		75990DDE1D247D8300E45A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Loft ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loft Chat.app/Loft Chat";
+			};
+			name = Release;
+		};
+		75990DE01D247D8300E45A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Loft ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Loft Chat";
+			};
+			name = Debug;
+		};
+		75990DE11D247D8300E45A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Loft ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Wolf-s-Head-Labs.Loft-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Loft Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75990DAC1D247D8300E45A64 /* Build configuration list for PBXProject "Loft Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75990DD71D247D8300E45A64 /* Debug */,
+				75990DD81D247D8300E45A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75990DD91D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75990DDA1D247D8300E45A64 /* Debug */,
+				75990DDB1D247D8300E45A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75990DDC1D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75990DDD1D247D8300E45A64 /* Debug */,
+				75990DDE1D247D8300E45A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75990DDF1D247D8300E45A64 /* Build configuration list for PBXNativeTarget "Loft ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75990DE01D247D8300E45A64 /* Debug */,
+				75990DE11D247D8300E45A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75990DA91D247D8300E45A64 /* Project object */;
+}
