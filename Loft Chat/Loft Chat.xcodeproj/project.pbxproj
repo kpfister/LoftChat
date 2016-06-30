@@ -11,6 +11,15 @@
 		752637621D258298009025DB /* threadListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637611D258298009025DB /* threadListTableViewController.swift */; };
 		752637641D2587B5009025DB /* threadDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637631D2587B5009025DB /* threadDetailTableViewController.swift */; };
 		752637661D258BB9009025DB /* customImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637651D258BB9009025DB /* customImageView.swift */; };
+		752637681D25AF64009025DB /* createNewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637671D25AF64009025DB /* createNewMessageViewController.swift */; };
+		7526376A1D25B838009025DB /* ThreadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637691D25B838009025DB /* ThreadController.swift */; };
+		7526376E1D25B9F4009025DB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7526376C1D25B9F4009025DB /* Model.xcdatamodeld */; };
+		752637751D25BB51009025DB /* SynchableObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526376F1D25BB51009025DB /* SynchableObject+CoreDataProperties.swift */; };
+		752637761D25BB51009025DB /* SynchableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637701D25BB51009025DB /* SynchableObject.swift */; };
+		752637771D25BB51009025DB /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637711D25BB51009025DB /* Message+CoreDataProperties.swift */; };
+		752637781D25BB51009025DB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637721D25BB51009025DB /* Message.swift */; };
+		752637791D25BB51009025DB /* Thread+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637731D25BB51009025DB /* Thread+CoreDataProperties.swift */; };
+		7526377A1D25BB51009025DB /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752637741D25BB51009025DB /* Thread.swift */; };
 		75990DB51D247D8300E45A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75990DB41D247D8300E45A64 /* AppDelegate.swift */; };
 		75990DBA1D247D8300E45A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75990DB81D247D8300E45A64 /* Main.storyboard */; };
 		75990DBC1D247D8300E45A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75990DBB1D247D8300E45A64 /* Assets.xcassets */; };
@@ -41,6 +50,15 @@
 		752637611D258298009025DB /* threadListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threadListTableViewController.swift; sourceTree = "<group>"; };
 		752637631D2587B5009025DB /* threadDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = threadDetailTableViewController.swift; sourceTree = "<group>"; };
 		752637651D258BB9009025DB /* customImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customImageView.swift; sourceTree = "<group>"; };
+		752637671D25AF64009025DB /* createNewMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createNewMessageViewController.swift; sourceTree = "<group>"; };
+		752637691D25B838009025DB /* ThreadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadController.swift; sourceTree = "<group>"; };
+		7526376D1D25B9F4009025DB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7526376F1D25BB51009025DB /* SynchableObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SynchableObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		752637701D25BB51009025DB /* SynchableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchableObject.swift; sourceTree = "<group>"; };
+		752637711D25BB51009025DB /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		752637721D25BB51009025DB /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		752637731D25BB51009025DB /* Thread+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Thread+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		752637741D25BB51009025DB /* Thread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		75990DB11D247D8300E45A64 /* Loft Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loft Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75990DB41D247D8300E45A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75990DB91D247D8300E45A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +101,7 @@
 		752637601D257F20009025DB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				752637671D25AF64009025DB /* createNewMessageViewController.swift */,
 				7526375E1D257F1B009025DB /* addUserViewController.swift */,
 				752637611D258298009025DB /* threadListTableViewController.swift */,
 				752637631D2587B5009025DB /* threadDetailTableViewController.swift */,
@@ -90,9 +109,32 @@
 			name = "View Controllers";
 			sourceTree = "<group>";
 		};
+		7526376B1D25B83D009025DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				752637691D25B838009025DB /* ThreadController.swift */,
+				7526376C1D25B9F4009025DB /* Model.xcdatamodeld */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7526377B1D25BB58009025DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7526376F1D25BB51009025DB /* SynchableObject+CoreDataProperties.swift */,
+				752637701D25BB51009025DB /* SynchableObject.swift */,
+				752637711D25BB51009025DB /* Message+CoreDataProperties.swift */,
+				752637721D25BB51009025DB /* Message.swift */,
+				752637731D25BB51009025DB /* Thread+CoreDataProperties.swift */,
+				752637741D25BB51009025DB /* Thread.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		75990DA81D247D8300E45A64 = {
 			isa = PBXGroup;
 			children = (
+				7526377B1D25BB58009025DB /* Model */,
 				75990DB31D247D8300E45A64 /* Loft Chat */,
 				75990DC81D247D8300E45A64 /* Loft ChatTests */,
 				75990DD31D247D8300E45A64 /* Loft ChatUITests */,
@@ -120,6 +162,7 @@
 				75990DBB1D247D8300E45A64 /* Assets.xcassets */,
 				75990DBD1D247D8300E45A64 /* LaunchScreen.storyboard */,
 				75990DC01D247D8300E45A64 /* Info.plist */,
+				7526376B1D25B83D009025DB /* Controllers */,
 			);
 			path = "Loft Chat";
 			sourceTree = "<group>";
@@ -273,10 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752637771D25BB51009025DB /* Message+CoreDataProperties.swift in Sources */,
 				75990DB51D247D8300E45A64 /* AppDelegate.swift in Sources */,
 				752637661D258BB9009025DB /* customImageView.swift in Sources */,
+				752637791D25BB51009025DB /* Thread+CoreDataProperties.swift in Sources */,
+				7526376A1D25B838009025DB /* ThreadController.swift in Sources */,
+				7526377A1D25BB51009025DB /* Thread.swift in Sources */,
+				7526376E1D25B9F4009025DB /* Model.xcdatamodeld in Sources */,
 				752637621D258298009025DB /* threadListTableViewController.swift in Sources */,
+				752637681D25AF64009025DB /* createNewMessageViewController.swift in Sources */,
 				752637641D2587B5009025DB /* threadDetailTableViewController.swift in Sources */,
+				752637751D25BB51009025DB /* SynchableObject+CoreDataProperties.swift in Sources */,
+				752637781D25BB51009025DB /* Message.swift in Sources */,
+				752637761D25BB51009025DB /* SynchableObject.swift in Sources */,
 				7526375F1D257F1B009025DB /* addUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +577,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7526376C1D25B9F4009025DB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7526376D1D25B9F4009025DB /* Model.xcdatamodel */,
+			);
+			currentVersion = 7526376D1D25B9F4009025DB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 75990DA91D247D8300E45A64 /* Project object */;
 }
